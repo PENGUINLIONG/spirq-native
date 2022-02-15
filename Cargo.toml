@@ -1,0 +1,16 @@
+[package]
+name = "spirq-native"
+version = "0.5.0"
+authors = ["PENGUINLIONG <admin@penguinliong.moe>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Native API to SPIR-Q, a light weight SPIR-V query utility for graphics."
+repository = "https://github.com/PENGUINLIONG/spirq-native"
+homepage = "https://github.com/PENGUINLIONG/spirq-native"
+documentation = "https://docs.rs/spirq"
+categories = ["graphics"]
+readme = "README.md"
+
+[dependencies]
+#spirq = "0.5"
+spirq = { path = "../spirq-rs"}
